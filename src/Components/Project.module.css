@@ -1,0 +1,35 @@
+/* header */
+.projects{ 
+    text-align:center;
+} 
+
+.project_Container{
+    max-width:50vw;
+    margin:0 auto; 
+    border:1px solid red;
+}  
+
+
+.project_Container { 
+    width:150em;
+    
+}
+   
+/* .project_Container img:nth-child(odd){ 
+    float:right;
+}  */
+
+.items_Container{ 
+    display:flex; 
+    
+    border:1px solid yellow;
+}  
+
+.items_Container div:nth-child(odd){ 
+    float:right;
+}
+
+
+.project_Li{ 
+    list-style-type:none;
+}

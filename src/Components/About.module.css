@@ -1,0 +1,21 @@
+ :root{ 
+    --coral:#FD8D80;
+ }
+ 
+ 
+ .about_Container{ 
+   margin:0 auto;
+   max-width:50vw;
+   padding:2em;
+    
+}    
+
+/* paragraph */
+.text_Wrapper{ 
+    margin-top:1em; 
+    margin-bottom:1em;
+    font-size:20px;
+} 
+
+
+

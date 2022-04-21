@@ -1,0 +1,74 @@
+:root{ 
+    --coral:#FD8D80;
+    --blue:#2F73EE;
+    --html_orange:#F46331;
+    --yellow:#F0E045;
+    --react_blue:#45DAF0;
+} 
+
+.home_Container{ 
+    background:var(--coral);
+} 
+
+.banner_holder{ 
+    display:flex; 
+    justify-content:space-evenly;
+    max-width:50vw;
+    margin:0 auto;
+    border: 1px solid red;
+    padding:2em;
+} 
+
+h1{ 
+    font-size:40px;
+}
+
+.left_Banner p { 
+    max-width:23em; 
+    font-size:20px;
+    margin-bottom: 20px;
+    
+} 
+ 
+.contact_Button{ 
+    background-color: var(--blue); 
+    border:1px solid var(--blue); 
+    border-radius: 5px;
+    color:white; 
+    text-decoration:none; 
+    text-align:center; 
+    display:inline-block; 
+    width:10em;
+    padding:5px;
+}  
+
+
+.languages{ 
+    float:right;
+    display:inline;
+    /* inline is not cooperating. . . */
+} 
+
+.languages>*{ 
+    padding:5px;
+}
+/* grabs all descending children */
+
+.html{ 
+    color:var(--html_orange);
+    
+} 
+
+.css{ 
+    color:var(--blue);
+}
+ 
+.javascript{ 
+    color:var(--yellow);
+}
+
+.react{ 
+    color:var(--react_blue);
+}
+
+
